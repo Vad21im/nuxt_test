@@ -54,12 +54,10 @@ onMounted(() => {
           </div>
           <div class="hidden md:block">
             <div class="ml-4 flex items-center md:ml-6">
-              <button type="button"
-                      class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                <span class="absolute -inset-1.5"></span>
-                <span class="sr-only">View notifications</span>
+              <div class="flex relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                <div class="flex mr-8 color-[#7C8792]"><i-location class="!w-[20px] !h-[20px] mr-1"/><div class="-mt-1">Москва и область</div> </div>
                 <i-bell class="!w-[20px] !h-[20px] text-white"></i-bell>
-              </button>
+              </div>
             </div>
           </div>
           <div class="-mr-2 flex md:hidden">
