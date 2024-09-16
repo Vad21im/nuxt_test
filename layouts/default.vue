@@ -59,7 +59,7 @@ onMounted(() => {
               </div>
             </div>
           </div>
-          <div class="-mr-2 flex md:hidden">
+          <div class="flex md:hidden">
             <i-bell class="mt-1 mr-2 !w-[27px] !h-[27px] text-white"></i-bell>
             <div  class="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                   aria-controls="mobile-menu" aria-expanded="false"
