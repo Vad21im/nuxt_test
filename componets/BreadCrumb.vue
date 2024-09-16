@@ -5,10 +5,10 @@ defineProps({
 
 </script>
 <template>
-<div class="breadCrumb">
+<div v-if="breadCrumbs.path !== '/'" class="breadCrumb">
   <nuxt-link to="/" class="link">Главная</nuxt-link>
-  <div v-if="breadCrumbs.path !== '/'">/</div>
-  <nuxt-link v-if="breadCrumbs.path !== '/'" :to="breadCrumbs.path" class="link second-link">{{ breadCrumbs.name }}</nuxt-link>
+  <div>/</div>
+  <div class="link second-link">{{ breadCrumbs.name }}</div>
 </div>
 </template>
 <style scoped lang="scss">
