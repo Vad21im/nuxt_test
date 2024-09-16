@@ -8,7 +8,6 @@ const {menuModal} = storeToRefs(appStores)
 
 function menuOpenClose() {
   appStores.setMenuModal(!menuModal.value)
-  console.log(menuModal.value)
 }
 
 const menu = ref([
