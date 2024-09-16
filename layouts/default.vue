@@ -116,6 +116,8 @@ onMounted(() => {
       <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <slot/>
       </div>
+       <div class="md:hidden p-4 bg-[#F3F5F6] absolute bottom-0 flex mr-8 color-[#7C8792]"><i-location class="!w-[20px] !h-[20px] mr-1"/><div class="-mt-1">Москва и область</div> </div>
+
     </main>
   </div>
 </template>
